@@ -11,6 +11,7 @@ session_start();
     <link rel="shortcut icon" href="img/logo.png"  type = "image/x-icon">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+  <link rel="stylesheet" href="css/Help.css">
 </head>
 <body>
      <!-- Navbar start -->
@@ -39,7 +40,9 @@ session_start();
   <!-- Navbar end -->
 
   <Div class="helpBox">
-      
+     <h1>
+         Welcome to the Help page.
+     </h1> 
   </Div>
 
 </body>

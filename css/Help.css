@@ -1,0 +1,11 @@
+.helpBox {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: rgb(236, 255, 255);
+    align-items: center;
+}
+
+.helpBox h1 {
+    text-align: center;
+}
