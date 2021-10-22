@@ -39,7 +39,7 @@
           <a class="nav-link" href="checkout.php"><i class="fas fa-money-check-alt mr-2"></i>Checkout</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href=".php"><i class="fas fa-money-check-alt mr-2"></i>Help</a>
+          <a class="nav-link" href="Help.php"><i class="fas fa-money-check-alt mr-2"></i>Help</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
