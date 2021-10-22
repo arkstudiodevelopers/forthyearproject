@@ -3,12 +3,16 @@
         height: auto;
         margin-left: 10%;
         background-color: rgb(236, 255, 255);
-        align-items: center;
         box-sizing: border-box;
         box-shadow: 4px 4px 4px 4px #969696;
         -webkit-box-shadow: 4px 3px 8px 1px #969696;
     }
     
-    .helpBox h1 {
+    .helpBox h2 {
         text-align: center;
+    }
+    
+    .helpBox p {
+        justify-content: center;
+        margin-left: 3%;
     }
