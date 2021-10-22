@@ -1,5 +1,37 @@
 <?php 
 session_start();
+$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$database = "eastend";
+	
+	// Create connection
+	$conn = mysqli_connect($servername, $username, $password, $database);
+    // Check connection
+	if (!$conn) {
+		die("Connection failed: " . mysqli_connect_error());
+	}
+	//echo "Connected successfully";
+if(isset($_POST['Help']))
+	{
+		  $Email = $_POST['Email'];
+          $Comment= $_POST['Comment'];
+          echo "$Comment";
+		  if($Email==''){
+			  echo "<script>alert('Please enter your email')</script>";
+			  exit();
+		  }	if($Comment== ''){
+              echo "<script>alert('Please enter your comment')</script>";
+          }
+		else{
+		  //insert the data to table 
+		  $sql = "insert into user_request (Email,Comment) values ('$Email','$Comment')";
+		  $query=mysqli_query($conn,$sql);
+		  if($query){
+			  echo "<sript>'User comment uploaded'<script>";
+		  }
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,6 +84,15 @@ session_start();
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui dolorum voluptatibus placeat quo, neque
         numquam similique possimus magni ab explicabo temporibus illo dolore sed, id accusamus. Atque, laborum maiores.
     </p>
+    <h4>
+        Give us Feedback
+    </h4>
+    <form action="Help.php" method="post">
+        <input type="email" name="Email" id="" placeholder="Enter your Email"><br>
+        <input type="text" name="Comment" id="" placeholder="Enter your query or comment"><br>
+        <input type="submit" class="btn" value="Help" name="Help">
+    </form>
+
   </Div>
 
 </body>

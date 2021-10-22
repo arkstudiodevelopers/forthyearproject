@@ -36,7 +36,7 @@
 		  $sql = "insert into user (Email,Username,Password) values ('$Email','$Username','$Password')";
 		  $query=mysqli_query($conn,$sql);
 		  if($query){
-			  echo "<p> Registration successfull</p>";
+			  echo "<script>alert('Successfuly delivered')</script>";
 		  }
 		}
 	}
