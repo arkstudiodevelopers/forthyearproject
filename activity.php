@@ -14,13 +14,14 @@
   <link rel="shortcut icon" href="img/logo.png"  type = "image/x-icon">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+  <link rel="stylesheet" href="css/activity.css">
 </head>
 
 <body>
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-md bg-info navbar-dark">
     <a class="navbar-brand" href="index.php"><i class="fa fa-archive"></i>&nbsp;&nbsp;Cloth Store</a>
-    <a href="">Hello,
+    <a href="" class="linkOne">Hello,
          <?php echo ($_SESSION['username']);?>
 </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -38,12 +39,23 @@
           <a class="nav-link" href="checkout.php"><i class="fas fa-money-check-alt mr-2"></i>Checkout</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href=".php"><i class="fas fa-money-check-alt mr-2"></i>Help</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- Navbar end -->
+
+  <!-- To help give the user direction -->
+    <div id="user">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque saepe voluptates sint suscipit sequi. Accusantium dolorem a natus est nulla iste, repellat, corporis voluptas in, non placeat? Dolores, dolorem exercitationem?
+      </p>
+    </div>
+  <!-- End of giving the user direction-->
 
   <!-- Displaying Products Start -->
   <div class="container">
