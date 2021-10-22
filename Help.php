@@ -40,9 +40,18 @@ session_start();
   <!-- Navbar end -->
 
   <Div class="helpBox">
-     <h1>
+     <h2>
          Welcome to the Help page.
-     </h1> 
+     </h2> <br><br>
+    <h4>
+        Frequently asked Questions
+    </h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias beatae in nostrum praesentium atque sit soluta nihil
+        esse sunt aperiam dicta, officia expedita, assumenda, architecto doloribus. Illum temporibus earum provident?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui dolorum voluptatibus placeat quo, neque
+        numquam similique possimus magni ab explicabo temporibus illo dolore sed, id accusamus. Atque, laborum maiores.
+    </p>
   </Div>
 
 </body>
