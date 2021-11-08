@@ -87,10 +87,12 @@
               <option value="cod">Cash On Delivery</option>
               <option value="netbanking">Net Banking</option>
               <option value="cards">Debit/Credit Card</option>
+              <option value= "Mpesa"> Mobile money/ Mpesa</option> 
             </select>
           </div>
           <div class="form-group">
             <input type="submit" name="submit" value="Place Order" class="btn btn-danger btn-block">
+            <a href="./MpesaProcessor.php?amount=1" class="btn btn-success">checkout</a>
           </div>
         </form>
       </div>
