@@ -80,10 +80,16 @@ if(isset($_POST['Help']))
         Frequently asked Questions
     </h4>
     <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias beatae in nostrum praesentium atque sit soluta nihil
-        esse sunt aperiam dicta, officia expedita, assumenda, architecto doloribus. Illum temporibus earum provident?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui dolorum voluptatibus placeat quo, neque
-        numquam similique possimus magni ab explicabo temporibus illo dolore sed, id accusamus. Atque, laborum maiores.
+       Is this the official web application? <br>
+       yes it is the official web application. <br> <br>
+       Does this web aplicaion collect my user data?<br>
+       No, it does not collect user data. <br><br>
+       How does one cancel an order? <br>
+       As of now you cannot cancel an order. <br><br>
+       Do you accept returned goods? <br>
+       Yes we do, if the goods you recieve are not upto your standards or the standards specified then you can return. <br><br>
+       Do you charge for shipping or transport fee? <br>
+       If you are in Nairobi, we do not charge any transport fee, but for areas or locations outside Nairobi we charge a fee. <br> <br>
     </p>
     <h4>
         Give us Feedback
