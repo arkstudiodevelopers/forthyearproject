@@ -58,6 +58,7 @@
        Both women and men wear are available in the store including children wear. We have been selling and designing cloths since 2005, 
        and have won various design competitions in the country. Our core values are fair trade, honesty, transparency and value for money.
        We are specialized in designing and creating clothing wear, but we also offer products such as bags and shoes.
+       Our goals and objective is to become a world wide company, and offer valuable products to our customers at fair prices. 
       </p>
    </div>
  </div>
@@ -68,17 +69,25 @@
       data-aos-anchor-placement="top-bottom">
         <h1 id="partners">Partners</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est possimus,
-          consequatur accusantium non, mollitia eum exercitationem rerum magnam recusandae
-          ut voluptas quia eos iste accusamus unde in sapiente? Odit.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est possimus,
-          consequatur accusantium non, mollitia eum exercitationem rerum magnam recusandae
-          ut voluptas quia eos iste accusamus unde in sapiente? Odit.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est possimus,
-          consequatur accusantium non, mollitia eum exercitationem rerum magnam recusandae
-          ut voluptas quia eos iste accusamus unde in sapiente? Odit.
+          We have many partners who we work hand in hand with to make sure that we do not deviate from the standards that are set by both us
+          and Kenya Bureau of Standards. Our partners assist in the production and marketing of our products and solve legal issues that we may 
+          encounter during the opperation of the business. Our Partners include Mpesa, Louis Vuitton, H and M, Adiddas,chanel, Hugo and Fendi 
         </p>
       </div>
+    </div>
+    <div id="third">
+      <h1 id="How-to-shop">How To Shop</h1>
+      <p>
+        To shop using our ecommerce plartform, you have to follow the following steps,
+        <ol>
+          <li>Click on sign-up in the navigation bar</li>
+          <li>You will be directed to the sign-up page</li>
+          <li>On the sign-up page put your details and remember your password</li>
+          <li>Go to the login page by clicking "login" in the navvigation bar</li>
+          <li>Enter your user name and password then login</li>
+          <li></li>
+        </ol>
+      </p>
     </div>
 
     <footer class="footer">

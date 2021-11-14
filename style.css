@@ -143,6 +143,12 @@ p {
     margin-left: 1vw;
 }
 
+#third {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+}
+
 .icon-bar {
     position: fixed;
     top: 50%;
