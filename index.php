@@ -37,7 +37,7 @@
     <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
   </div>
   <div class="banner">
-
+      
   </div>
  <div id="about">
 
@@ -53,16 +53,11 @@
      data-aos-easing="ease-in-sine">
       <h1>About</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempora atque, sit iusto earum eum nisi,
-         a illum ut saepe est. Laudantium doloribus quam nostrum nesciunt maxime, nobis perferendis pariatur? 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cupiditate ratione impedit aspernatur 
-         numquam deserunt, tempora dolorem deleniti quos hic facilis nulla molestias corrupti ab sequi accusantium 
-         odit sapiente laudantium?
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempora atque, sit iusto earum eum nisi,
-         a illum ut saepe est. Laudantium doloribus quam nostrum nesciunt maxime, nobis perferendis pariatur? 
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cupiditate ratione impedit aspernatur 
-         numquam deserunt, tempora dolorem deleniti quos hic facilis nulla molestias corrupti ab sequi accusantium 
-         odit sapiente laudantium?
+       EastEnd is a cloth store located in Nairobi city, it is onee of the fast growing cloth store in the city with lots of 
+       customers from various location within and outside Nairobi come to shop. EastEnd sells all cloth wear, including the latest trends.
+       Both women and men wear are available in the store including children wear. We have been selling and designing cloths since 2005, 
+       and have won various design competitions in the country. Our core values are fair trade, honesty, transparency and value for money.
+       We are specialized in designing and creating clothing wear, but we also offer products such as bags and shoes.
       </p>
    </div>
  </div>
