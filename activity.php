@@ -52,7 +52,7 @@
   <!-- To help give the user direction -->
     <div id="user">
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque saepe voluptates sint suscipit sequi. Accusantium dolorem a natus est nulla iste, repellat, corporis voluptas in, non placeat? Dolores, dolorem exercitationem?
+        To select an Item you wish to purchase, click on "Add to cart".
       </p>
     </div>
   <!-- End of giving the user direction-->

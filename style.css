@@ -149,6 +149,10 @@ p {
     background-color: #fff;
 }
 
+#paragraph {
+    margin-left: 10vw;
+}
+
 .icon-bar {
     position: fixed;
     top: 50%;

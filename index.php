@@ -77,7 +77,7 @@
     </div>
     <div id="third">
       <h1 id="How-to-shop">How To Shop</h1>
-      <p>
+      <p id= "paragraph">
         To shop using our ecommerce plartform, you have to follow the following steps,
         <ol>
           <li>Click on sign-up in the navigation bar</li>
@@ -85,7 +85,6 @@
           <li>On the sign-up page put your details and remember your password</li>
           <li>Go to the login page by clicking "login" in the navvigation bar</li>
           <li>Enter your user name and password then login</li>
-          <li></li>
         </ol>
       </p>
     </div>
