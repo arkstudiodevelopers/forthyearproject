@@ -1,9 +1,10 @@
-img{
+img {
     max-width: 100%;
     height: auto;
     background-color: antiquewhite;
-    background: radial-gradient(white,light green);
+    background: radial-gradient(white, light green);
 }
-.row{
+
+.row {
     display: inline-block;
 }
