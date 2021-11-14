@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 07, 2021 at 01:20 PM
--- Server version: 10.4.20-MariaDB
--- PHP Version: 8.0.9
+-- Generation Time: Nov 13, 2021 at 11:09 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -42,10 +42,13 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`id`, `product_name`, `product_price`, `product_image`, `qty`, `total_price`, `product_code`) VALUES
-(60, 'Life line shirt', '460\n\n\n\n\n\n\n\n\n\n\n', 'image\\9.jpg', 4, '1840', 'p009'),
-(61, 'Black Squad shirt', '200', 'image/1.jpg', 5, '1000', 'p1000'),
-(62, 'Bulls shirt', '130', 'image/2.jpg', 4, '520', 'p1001'),
-(63, 'Custom Black Shirt', '300', 'image/3.jpg', 3, '900', 'p1002');
+(78, 'Custom Black Shirt', '300', 'image/3.jpg', 3, '900', 'p1002'),
+(79, 'Stock White Shirt', '420', 'image/4.jpg', 8, '3360', 'p1003'),
+(80, 'Bulls shirt', '130', 'image/2.jpg', 4, '520', 'p1001'),
+(81, 'Navy blue Shirt', '389', 'image/6.jpg', 2, '778', 'p1005'),
+(82, 'Puma shirt', '450', 'image/7.jpg', 4, '1800', 'p1006'),
+(83, 'Jeans', '500', 'image\\10.jpg', 3, '1500', 'p010'),
+(84, 'Mens\' official trouser', '1000', 'image\\16\n.jpg', 5, '5000', 'p016');
 
 -- --------------------------------------------------------
 
@@ -69,7 +72,11 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `name`, `email`, `phone`, `address`, `pmode`, `products`, `amount_paid`) VALUES
-(12, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+254797599985', '1907', 'cod', 'Apple iPhone X(1), Huawei 10 Pro(1), LG v30(1), MI Note 5 Pro(1)', '245000');
+(12, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+254797599985', '1907', 'cod', 'Apple iPhone X(1), Huawei 10 Pro(1), LG v30(1), MI Note 5 Pro(1)', '245000'),
+(13, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+10797599985', '1907-40100 Kisumu', 'cod', 'Life line shirt(4), Black Squad shirt(5), Bulls shirt(4), Custom Black Shirt(3), Stock White Shirt(8)', '7620'),
+(14, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+10797599985', '1907-40100 Kisumu', 'cod', 'Custom Black Shirt(3), Stock White Shirt(8), Bulls shirt(4), Black Squad shirt(5)', '5780'),
+(15, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+10797599985', '1907-40100 Kisumu', 'cod', 'Black Squad shirt(5), Bulls shirt(4), Custom Black Shirt(3), Stock White Shirt(8)', '5780'),
+(16, 'NIXON OCHICH OJIEM', 'nicksonogm@gmail.com', '+10797599985', '1907-40100 Kisumu', 'cod', 'Black Squad shirt(5), Bulls shirt(4), Custom Black Shirt(3), Stock White Shirt(8), Jeans(3)', '7280');
 
 -- --------------------------------------------------------
 
@@ -126,7 +133,27 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`Email`, `Username`, `Password`) VALUES
 ('johndoe@gmail.com', 'john', 'password'),
-('nick@gmail.com', 'nick', '7DHAEdtKR9npAHT');
+('nick@gmail.com', 'nick', '7DHAEdtKR9npAHT'),
+('nicksonogm@gmail.com', 'nixonogm', 'XZAPyEMhN3fHPTa');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_request`
+--
+
+CREATE TABLE `user_request` (
+  `Email` varchar(164) CHARACTER SET ascii NOT NULL,
+  `Comment` varchar(164) CHARACTER SET ascii DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user_request`
+--
+
+INSERT INTO `user_request` (`Email`, `Comment`) VALUES
+('nicksonogm@gmail.com', 'Good UI'),
+('nixonojiem@gmail.com', 'Good UI');
 
 --
 -- Indexes for dumped tables
@@ -159,6 +186,12 @@ ALTER TABLE `user`
   ADD UNIQUE KEY `Email` (`Email`);
 
 --
+-- Indexes for table `user_request`
+--
+ALTER TABLE `user_request`
+  ADD PRIMARY KEY (`Email`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -166,13 +199,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `product`
