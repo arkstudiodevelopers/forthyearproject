@@ -67,7 +67,7 @@ function lipaNaMpesaPassword()
             'PartyB' => 174379,
             'PhoneNumber' => "254797599985",
             'CallBackURL' => 'https://32d0-2c0f-fe38-2323-c5eb-383c-980b-413e-1aa5.ngrok.io/callback',
-            'AccountReference' => "Simon's Tech School Payment",
+            'AccountReference' => "Eastend Online shop",
             'TransactionDesc' => "lipa Na M-PESA"
         ];
 

@@ -79,13 +79,13 @@
       <h1 id="How-to-shop">How To Shop</h1>
       <p id= "paragraph">
         To shop using our ecommerce plartform, you have to follow the following steps,
-        <ol>
+        <ul>
           <li>Click on sign-up in the navigation bar</li>
           <li>You will be directed to the sign-up page</li>
           <li>On the sign-up page put your details and remember your password</li>
           <li>Go to the login page by clicking "login" in the navvigation bar</li>
           <li>Enter your user name and password then login</li>
-        </ol>
+        </ul>
       </p>
     </div>
 
